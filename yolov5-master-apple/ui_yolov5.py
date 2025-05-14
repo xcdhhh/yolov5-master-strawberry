@@ -506,7 +506,7 @@ class picture(QWidget):
         super(picture, self).__init__()
 
         self.setWindowIcon(QIcon(os.getcwd() + '\\data\\source_image\\Detective.ico'))
-        self.setWindowTitle("草莓病虫害检测平台")
+        self.setWindowTitle("莓痕智检")
         self.resize(1600, 900)
 
         # 设置背景图像
@@ -517,7 +517,7 @@ class picture(QWidget):
         self.background_label.setGeometry(0, 0, self.width(), self.height())
 
         # 增加标题
-        self.title_label = QLabel("人群异常行为检测平台", self)
+        self.title_label = QLabel("莓痕智检", self)
         self.title_label.setAlignment(Qt.AlignCenter)
         self.title_label.setStyleSheet("color: white; font-size: 45px; font-weight: bold; font-family: 黑体;")
         self.title_label.setGeometry(0, 50, self.width(), 50)
@@ -738,7 +738,7 @@ class UI(QWidget):
         # self.my_model=my_lodelmodel()
         self.resize(1600, 900)
         self.setWindowIcon(QIcon(os.getcwd() + '\\data\\source_image\\Detective.ico'))
-        self.setWindowTitle("草莓病害检测平台")
+        self.setWindowTitle("莓痕智检")
 
 
 
